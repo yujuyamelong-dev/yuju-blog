@@ -1,0 +1,79 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e10]: 유주's Blog
+    - generic [ref=e12]:
+      - img [ref=e13]
+      - textbox "블로그 글 검색" [ref=e16]:
+        - /placeholder: 글 검색...
+        - text: test
+      - button "검색어 초기화" [ref=e17]:
+        - img
+    - link "관리자 로그인" [ref=e18] [cursor=pointer]:
+      - /url: /admin/login
+      - button "관리자 로그인" [ref=e19]: 로그인
+    - button "다크/라이트 모드 전환" [ref=e20]:
+      - img
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - heading "검색 결과" [level=1] [ref=e24]
+        - paragraph [ref=e25]: "\"test\" 에 대한 0개의 결과"
+      - generic [ref=e26]:
+        - generic [ref=e27]: 🔍
+        - heading "검색 결과가 없습니다" [level=2] [ref=e28]
+        - paragraph [ref=e29]: 다른 검색어를 시도하거나 카테고리를 둘러보세요.
+  - contentinfo [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - link "블로그 홈" [ref=e34] [cursor=pointer]:
+            - /url: /
+            - img [ref=e36]
+            - generic [ref=e39]: 개발 블로그
+          - paragraph [ref=e40]: 개발하면서 배우고 경험한 것들을 기록하는 기술 블로그입니다. Notion CMS로 관리됩니다.
+          - generic [ref=e41]:
+            - link "GitHub 프로필" [ref=e42] [cursor=pointer]:
+              - /url: https://github.com
+              - img [ref=e43]
+            - link "Twitter 프로필" [ref=e46] [cursor=pointer]:
+              - /url: https://twitter.com
+              - img [ref=e47]
+            - link "RSS 피드 구독" [ref=e49] [cursor=pointer]:
+              - /url: /rss.xml
+              - img [ref=e50]
+        - generic [ref=e54]:
+          - heading "탐색" [level=3] [ref=e55]
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "홈" [ref=e58] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e59]:
+              - link "모든 글" [ref=e60] [cursor=pointer]:
+                - /url: /posts
+            - listitem [ref=e61]:
+              - link "카테고리" [ref=e62] [cursor=pointer]:
+                - /url: /categories
+            - listitem [ref=e63]:
+              - link "검색" [ref=e64] [cursor=pointer]:
+                - /url: /search
+        - generic [ref=e65]:
+          - heading "기술 스택" [level=3] [ref=e66]
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - link "Next.js" [ref=e69] [cursor=pointer]:
+                - /url: https://nextjs.org
+            - listitem [ref=e70]:
+              - link "shadcn/ui" [ref=e71] [cursor=pointer]:
+                - /url: https://ui.shadcn.com
+            - listitem [ref=e72]:
+              - link "Tailwind CSS" [ref=e73] [cursor=pointer]:
+                - /url: https://tailwindcss.com
+            - listitem [ref=e74]:
+              - link "Notion" [ref=e75] [cursor=pointer]:
+                - /url: https://www.notion.so
+      - generic [ref=e76]:
+        - paragraph [ref=e77]: © 2026 개발 블로그. All rights reserved.
+        - paragraph [ref=e78]: Next.js 15 + Tailwind CSS v4 + Notion CMS

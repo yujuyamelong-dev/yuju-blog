@@ -1,0 +1,108 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e10]: 유주's Blog
+    - generic [ref=e12]:
+      - img [ref=e13]
+      - textbox "블로그 글 검색" [ref=e16]:
+        - /placeholder: 글 검색...
+    - link "관리자 로그인" [ref=e17] [cursor=pointer]:
+      - /url: /admin/login
+      - button "관리자 로그인" [ref=e18]: 로그인
+    - button "다크/라이트 모드 전환" [ref=e19]:
+      - img
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e24]:
+          - generic:
+            - img
+          - generic:
+            - img
+          - generic [ref=e26]:
+            - generic [ref=e29]: 안녕하세요, 반갑습니다!
+            - heading "저는 유주 입니다." [level=1] [ref=e30]:
+              - generic [ref=e31]: 저는
+              - generic [ref=e32]: 유주
+              - generic [ref=e33]: 입니다.
+            - paragraph [ref=e34]:
+              - img [ref=e35]
+              - text: 풀스텍 개발자
+            - paragraph [ref=e39]:
+              - img [ref=e40]
+              - text: AI 네이티브 개발자
+            - paragraph [ref=e44]:
+              - text: 개발하면서 배우고 경험한 것들을 기록합니다.
+              - text: 다양한 프로그래밍 언어를 배우는 것과 좋은 UI/UX를 만드는 것에
+              - text: 관심이 많습니다.
+            - generic [ref=e45]:
+              - generic [ref=e46]: TypeScript
+              - generic [ref=e47]: Next.js
+              - generic [ref=e48]: React
+              - generic [ref=e49]: Tailwind CSS
+              - generic [ref=e50]: Node.js
+              - generic [ref=e51]: Java
+              - generic [ref=e52]: Vue.js
+            - generic [ref=e53]:
+              - button "다음 포스트로 이동" [ref=e54]:
+                - text: 블로그 글 보기
+                - img [ref=e55]
+              - link "GitHub" [ref=e57] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e58]
+                - text: GitHub
+              - link "이력서 보러가기" [ref=e61] [cursor=pointer]:
+                - /url: https://yujuyamelong-dev.github.io/my-web-profile/
+                - img [ref=e62]
+                - text: 이력서 보러가기
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - img [ref=e68]
+                - generic [ref=e72]:
+                  - generic [ref=e73]: "1"
+                  - generic [ref=e74]: 포스트
+              - generic [ref=e75]:
+                - img [ref=e77]
+                - generic [ref=e80]:
+                  - generic [ref=e81]: 3+
+                  - generic [ref=e82]: 프로젝트
+              - generic [ref=e83]:
+                - img [ref=e85]
+                - generic [ref=e88]:
+                  - generic [ref=e89]: 5+
+                  - generic [ref=e90]: 기술 스택
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading "블로그 글 목록" [level=2]
+                - paragraph: 총 1개의 글
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - link "배열 메서드 1":
+                        - /url: /posts/355da59e-7d34-8181-ab38-e9fda6363df8
+                        - heading "배열 메서드 1" [level=3]
+                      - paragraph: forEach, includes, indexOf, findIndex, find
+                      - generic:
+                        - img
+                        - link "자바스크립트":
+                          - /url: /tags
+                        - link "javascript":
+                          - /url: /tags/javascript
+                      - generic:
+                        - generic:
+                          - img
+                          - time: 2026년 5월 3일
+                        - generic: 읽기 →
+      - button "이전 슬라이드" [ref=e91]:
+        - img [ref=e92]
+      - button "다음 슬라이드" [ref=e94]:
+        - img [ref=e95]
+      - generic [ref=e97]:
+        - button "슬라이드 1로 이동" [ref=e98]
+        - button "슬라이드 2로 이동" [ref=e99]
+      - generic [ref=e100]: 1 / 2

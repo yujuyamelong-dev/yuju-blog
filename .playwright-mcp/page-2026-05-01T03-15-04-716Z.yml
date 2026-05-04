@@ -1,0 +1,80 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e10]: 유주's Blog
+    - button "다크/라이트 모드 전환" [ref=e11]:
+      - img
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e16]:
+          - generic:
+            - img
+          - generic:
+            - img
+          - generic [ref=e18]:
+            - generic [ref=e21]: 안녕하세요, 반갑습니다!
+            - heading "저는 유주 입니다." [level=1] [ref=e22]:
+              - generic [ref=e23]: 저는
+              - generic [ref=e24]: 유주
+              - generic [ref=e25]: 입니다.
+            - paragraph [ref=e26]:
+              - img [ref=e27]
+              - text: 풀스텍 개발자
+            - paragraph [ref=e31]:
+              - img [ref=e32]
+              - text: AI 네이티브 개발자
+            - paragraph [ref=e36]:
+              - text: 개발하면서 배우고 경험한 것들을 기록합니다.
+              - text: 다양한 프로그래밍 언어를 배우는 것과 좋은 UI/UX를 만드는 것에
+              - text: 관심이 많습니다.
+            - generic [ref=e37]:
+              - generic [ref=e38]: TypeScript
+              - generic [ref=e39]: Next.js
+              - generic [ref=e40]: React
+              - generic [ref=e41]: Tailwind CSS
+              - generic [ref=e42]: Node.js
+              - generic [ref=e43]: Java
+              - generic [ref=e44]: Vue.js
+            - generic [ref=e45]:
+              - button "다음 포스트로 이동" [ref=e46]:
+                - text: 블로그 글 보기
+                - img [ref=e47]
+              - link "GitHub" [ref=e49] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e50]
+                - text: GitHub
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - img [ref=e56]
+                - generic [ref=e60]:
+                  - generic [ref=e61]: 6+
+                  - generic [ref=e62]: 포스트
+              - generic [ref=e63]:
+                - img [ref=e65]
+                - generic [ref=e68]:
+                  - generic [ref=e69]: 3+
+                  - generic [ref=e70]: 프로젝트
+              - generic [ref=e71]:
+                - img [ref=e73]
+                - generic [ref=e76]:
+                  - generic [ref=e77]: 5+
+                  - generic [ref=e78]: 기술 스택
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading "블로그 글 목록" [level=2]
+                - paragraph: 총 0개의 글
+              - generic:
+                - paragraph: 발행된 글이 없습니다.
+      - button "이전 슬라이드" [ref=e79]:
+        - img [ref=e80]
+      - button "다음 슬라이드" [ref=e82]:
+        - img [ref=e83]
+      - generic [ref=e85]:
+        - button "슬라이드 1로 이동" [ref=e86]
+        - button "슬라이드 2로 이동" [active] [ref=e87]
+      - generic [ref=e88]: 1 / 2

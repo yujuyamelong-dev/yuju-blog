@@ -1,0 +1,84 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e10]: 유주's Blog
+    - generic [ref=e12]:
+      - img [ref=e13]
+      - textbox "블로그 글 검색" [ref=e16]:
+        - /placeholder: 글 검색...
+    - button "다크/라이트 모드 전환" [ref=e17]:
+      - img
+  - main [ref=e18]:
+    - article [ref=e19]:
+      - generic [ref=e20]:
+        - heading "클로드 코드 강의 초안" [level=1] [ref=e21]
+        - generic [ref=e22]:
+          - link "#Claude Code" [ref=e23] [cursor=pointer]:
+            - /url: /tags/claude-code
+            - generic [ref=e24]: "#Claude Code"
+          - link "#클로드 코드" [ref=e25] [cursor=pointer]:
+            - /url: /tags/-
+            - generic [ref=e26]: "#클로드 코드"
+          - link "#강의초안" [ref=e27] [cursor=pointer]:
+            - /url: /tags
+            - generic [ref=e28]: "#강의초안"
+        - generic [ref=e30]: "수정: 2026년 4월 26일"
+      - navigation [ref=e31]:
+        - link "← 이전 글 웹 포트폴리오" [ref=e33] [cursor=pointer]:
+          - /url: /posts/34eda59e-7d34-8077-b987-f8a0d7d92846
+          - generic [ref=e34]: ← 이전 글
+          - generic [ref=e35]: 웹 포트폴리오
+  - contentinfo [ref=e37]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - link "블로그 홈" [ref=e41] [cursor=pointer]:
+            - /url: /
+            - img [ref=e43]
+            - generic [ref=e46]: 개발 블로그
+          - paragraph [ref=e47]: 개발하면서 배우고 경험한 것들을 기록하는 기술 블로그입니다. Notion CMS로 관리됩니다.
+          - generic [ref=e48]:
+            - link "GitHub 프로필" [ref=e49] [cursor=pointer]:
+              - /url: https://github.com
+              - img [ref=e50]
+            - link "Twitter 프로필" [ref=e53] [cursor=pointer]:
+              - /url: https://twitter.com
+              - img [ref=e54]
+            - link "RSS 피드 구독" [ref=e56] [cursor=pointer]:
+              - /url: /rss.xml
+              - img [ref=e57]
+        - generic [ref=e61]:
+          - heading "탐색" [level=3] [ref=e62]
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "홈" [ref=e65] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e66]:
+              - link "모든 글" [ref=e67] [cursor=pointer]:
+                - /url: /posts
+            - listitem [ref=e68]:
+              - link "카테고리" [ref=e69] [cursor=pointer]:
+                - /url: /categories
+            - listitem [ref=e70]:
+              - link "검색" [ref=e71] [cursor=pointer]:
+                - /url: /search
+        - generic [ref=e72]:
+          - heading "기술 스택" [level=3] [ref=e73]
+          - list [ref=e74]:
+            - listitem [ref=e75]:
+              - link "Next.js" [ref=e76] [cursor=pointer]:
+                - /url: https://nextjs.org
+            - listitem [ref=e77]:
+              - link "shadcn/ui" [ref=e78] [cursor=pointer]:
+                - /url: https://ui.shadcn.com
+            - listitem [ref=e79]:
+              - link "Tailwind CSS" [ref=e80] [cursor=pointer]:
+                - /url: https://tailwindcss.com
+            - listitem [ref=e81]:
+              - link "Notion" [ref=e82] [cursor=pointer]:
+                - /url: https://www.notion.so
+      - generic [ref=e83]:
+        - paragraph [ref=e84]: © 2026 개발 블로그. All rights reserved.
+        - paragraph [ref=e85]: Next.js 15 + Tailwind CSS v4 + Notion CMS

@@ -1,0 +1,222 @@
+@import "tailwindcss";
+@import "shadcn/tailwind.css";
+@plugin "@tailwindcss/typography";
+@import "highlight.js/styles/atom-one-light.min.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ─────────────────────────────────────────
+   Tailwind CSS v4 테마 토큰 매핑
+   CSS 변수를 Tailwind 색상 유틸리티로 연결
+───────────────────────────────────────── */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sidebar: var(--sidebar);
+  --color-orange-accent: var(--orange-accent);
+  --color-orange-glow: var(--orange-glow);
+  --radius: 0.625rem;
+}
+
+/* ─────────────────────────────────────────
+   라이트 모드 - 깔끔한 흰 배경 + 오렌지 포인트
+───────────────────────────────────────── */
+:root {
+  --radius: 0.75rem;
+  --background: oklch(0.98 0 0);
+  --foreground: oklch(0.12 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.12 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.12 0 0);
+  /* 오렌지 프라이머리 */
+  --primary: oklch(0.65 0.19 48);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.94 0 0);
+  --secondary-foreground: oklch(0.25 0 0);
+  --muted: oklch(0.95 0 0);
+  --muted-foreground: oklch(0.55 0 0);
+  --accent: oklch(0.93 0.04 48);
+  --accent-foreground: oklch(0.25 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.90 0 0);
+  --input: oklch(0.90 0 0);
+  --ring: oklch(0.65 0.19 48);
+  --sidebar: oklch(0.95 0 0);
+  /* 커스텀 오렌지 글로우 */
+  --orange-accent: oklch(0.65 0.19 48);
+  --orange-glow: oklch(0.65 0.19 48 / 0.25);
+}
+
+/* ─────────────────────────────────────────
+   다크 모드 - 깊은 검은색(#1a1a1a 수준) + 오렌지 악센트
+───────────────────────────────────────── */
+.dark {
+  /* 깊은 다크 배경 (#1a1a1a = oklch(0.165 0 0)) */
+  --background: oklch(0.13 0 0);
+  --foreground: oklch(0.95 0 0);
+  /* 카드: 배경보다 약간 밝은 다크 (#222) */
+  --card: oklch(0.17 0 0);
+  --card-foreground: oklch(0.95 0 0);
+  --popover: oklch(0.17 0 0);
+  --popover-foreground: oklch(0.95 0 0);
+  /* 오렌지 프라이머리 - 다크 배경에서 선명하게 */
+  --primary: oklch(0.68 0.21 48);
+  --primary-foreground: oklch(0.10 0 0);
+  --secondary: oklch(0.21 0 0);
+  --secondary-foreground: oklch(0.90 0 0);
+  --muted: oklch(0.20 0 0);
+  --muted-foreground: oklch(0.60 0 0);
+  /* 오렌지 틴트 악센트 */
+  --accent: oklch(0.22 0.03 48);
+  --accent-foreground: oklch(0.90 0 0);
+  --destructive: oklch(0.65 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  /* 테두리: 미묘한 밝음 (#2a2a2a) */
+  --border: oklch(0.25 0 0);
+  --input: oklch(0.22 0 0);
+  --ring: oklch(0.68 0.21 48);
+  /* 사이드바 배경 */
+  --sidebar: oklch(0.11 0 0);
+  /* 오렌지 글로우 효과용 */
+  --orange-accent: oklch(0.68 0.21 48);
+  --orange-glow: oklch(0.68 0.21 48 / 0.3);
+}
+
+/* ─────────────────────────────────────────
+   코드 강조 - highlight.js 다크모드 오버라이드
+───────────────────────────────────────── */
+.dark .hljs {
+  background: var(--color-card) !important;
+  color: oklch(0.92 0.04 260) !important;
+}
+
+.dark .hljs-attr,
+.dark .hljs-attribute {
+  color: oklch(0.75 0.18 38) !important;
+}
+
+.dark .hljs-literal,
+.dark .hljs-number {
+  color: oklch(0.74 0.2 302) !important;
+}
+
+.dark .hljs-meta,
+.dark .hljs-meta .hljs-string {
+  color: oklch(0.72 0.17 248) !important;
+}
+
+.dark .hljs-operator,
+.dark .hljs-punctuation {
+  color: oklch(0.72 0.17 248) !important;
+}
+
+.dark .hljs-string {
+  color: oklch(0.75 0.18 142) !important;
+}
+
+.dark .hljs-symbol,
+.dark .hljs-type {
+  color: oklch(0.72 0.17 248) !important;
+}
+
+.dark .hljs-template-tag,
+.dark .hljs-template-variable {
+  color: oklch(0.75 0.18 142) !important;
+}
+
+.dark .hljs-title,
+.dark .hljs-name {
+  color: oklch(0.72 0.17 248) !important;
+}
+
+.dark .hljs-tag {
+  color: oklch(0.73 0.21 27) !important;
+}
+
+.dark .hljs-comment,
+.dark .hljs-quote {
+  color: oklch(0.55 0 0) !important;
+}
+
+.dark .hljs-keyword {
+  color: oklch(0.73 0.21 27) !important;
+}
+
+/* ─────────────────────────────────────────
+   베이스 스타일
+───────────────────────────────────────── */
+@layer base {
+  * {
+    border-color: var(--color-border);
+    outline-color: var(--color-ring);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    /* Geist 폰트 패밀리 적용 */
+    font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* ─────────────────────────────────────────
+   커스텀 유틸리티: 슬라이드 전환 애니메이션
+───────────────────────────────────────── */
+@layer utilities {
+  /* 슬라이드 인/아웃 트랜지션 */
+  .slide-transition {
+    transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.35s ease;
+  }
+
+  /* 오렌지 글로우 박스 쉐도우 */
+  .orange-glow {
+    box-shadow: 0 0 20px var(--orange-glow), 0 0 40px oklch(0.68 0.21 48 / 0.1);
+  }
+
+  /* 오렌지 텍스트 글로우 */
+  .orange-text-glow {
+    text-shadow: 0 0 20px oklch(0.68 0.21 48 / 0.5);
+  }
+
+  /* 격자 배경 패턴 */
+  .grid-pattern {
+    background-image:
+      linear-gradient(oklch(0.95 0 0 / 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(0.95 0 0 / 0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .dark .grid-pattern {
+    background-image:
+      linear-gradient(oklch(0.95 0 0 / 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(0.95 0 0 / 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}

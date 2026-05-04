@@ -1,0 +1,56 @@
+[    1075ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[    1142ms] [LOG] %c%s%c [✅ Notion Client 생성 성공] background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/webpack-internal:///(rsc)/./lib/notion.ts?4:58
+[    1142ms] [LOG] %c%s%c [getAllPosts] Client 상태: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   true DB ID 상태: true @ about://React/Server/webpack-internal:///(rsc)/./lib/notion.ts?7:209
+[    1142ms] [LOG] %c%s%c [getAllPosts] Notion 데이터베이스 조회 시작... background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/webpack-internal:///(rsc)/./lib/notion.ts?8:217
+[    1142ms] [LOG] %c%s%c [getAllPosts] 요청 경로: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   databases/34eda59e7d34807289edd723b14338e7/query @ about://React/Server/webpack-internal:///(rsc)/./lib/notion.ts?9:223
+[    1142ms] [WARNING] %c%s%c @notionhq/client warn: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   request fail {code: invalid_request_url, message: Invalid request URL., attempt: 0, requestId: f8447afd-1119-4176-a531-b9fe17829e69} @ about://React/Server/webpack-internal:///(rsc)/./lib/notion.ts?10:224
+[    1144ms] [ERROR] %c%s%c ❌ Notion API 쿼리 실패: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   APIResponseError: Invalid request URL.
+    at getAllPostsCore (about://React/Server/webpack-internal:///(rsc)/./lib/notion.ts?10:225:30)
+    at HomePage (about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?6:25:23)
+    at resolveErrorDev (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:2396:46)
+    at getOutlinedModel (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:1747:22)
+    at parseModelString (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:1949:15)
+    at Object.eval (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:3056:20)
+    at JSON.parse (<anonymous>)
+    at initializeModelChunk (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:1273:26)
+    at getOutlinedModel (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:1682:11)
+    at parseModelString (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:2043:15)
+    at Array.eval (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:3056:20)
+    at JSON.parse (<anonymous>)
+    at initializeModelChunk (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:1273:26)
+    at resolveConsoleEntry (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:2683:13)
+    at processFullStringRow (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:2923:11)
+    at processFullBinaryRow (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:2825:7)
+    at processBinaryChunk (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:3028:15)
+    at progress (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:3294:13) @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[    1145ms] [ERROR] %c%s%c 에러 메시지: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   Invalid request URL. @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[    1145ms] [ERROR] %c%s%c 에러 스택: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   APIResponseError: Invalid request URL.
+    at buildRequestError (webpack-internal:///(rsc)/./node_modules/@notionhq/client/build/src/errors.js:215:16)
+    at Client.executeSingleRequest (webpack-internal:///(rsc)/./node_modules/@notionhq/client/build/src/Client.js:858:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Client.executeWithRetry (webpack-internal:///(rsc)/./node_modules/@notionhq/client/build/src/Client.js:816:24)
+    at async getAllPostsCore (webpack-internal:///(rsc)/./lib/notion.ts:225:30)
+    at async cachedCb (webpack-internal:///(rsc)/./node_modules/next/dist/server/web/spec-extension/unstable-cache.js:203:32)
+    at async HomePage (webpack-internal:///(rsc)/./app/page.tsx:25:23) @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[    1146ms] [LOG] %c%s%c [HOME PAGE] Notion 글 수: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   0 @ about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?14:25
+[    1146ms] [LOG] %c%s%c [HOME PAGE] 표시될 글 수: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   10 @ about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?15:27
+[    1146ms] [LOG] %c%s%c [HOME PAGE] 테스트 글 사용? background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   true @ about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?16:28
+[    1646ms] [LOG] %c%s%c [HOME PAGE] Notion 글 수: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   0 @ about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?14:25
+[    1646ms] [LOG] %c%s%c [HOME PAGE] 표시될 글 수: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   10 @ about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?15:27
+[    1646ms] [LOG] %c%s%c [HOME PAGE] 테스트 글 사용? background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   true @ about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?16:28
+[    1659ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[    1779ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3009/_next/static/webpack/f2a8e367ba9fd211.webpack.hot-update.json:0
+[    1872ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[    2142ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:111
+[    2335ms] Invalid or unexpected token
+[    2868ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[    2905ms] [LOG] %c%s%c [HOME PAGE] Notion 글 수: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   0 @ about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?0:25
+[    2905ms] [LOG] %c%s%c [HOME PAGE] 표시될 글 수: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   10 @ about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?1:27
+[    2906ms] [LOG] %c%s%c [HOME PAGE] 테스트 글 사용? background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   true @ about://React/Server/webpack-internal:///(rsc)/./app/page.tsx?2:28

@@ -1,0 +1,38 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e10]: 유주's Blog
+    - generic [ref=e12]:
+      - img [ref=e13]
+      - textbox "블로그 글 검색" [ref=e16]:
+        - /placeholder: 글 검색...
+    - link "관리자 로그인" [ref=e17] [cursor=pointer]:
+      - /url: /admin/login
+      - button "관리자 로그인" [ref=e18]: 로그인
+    - button "다크/라이트 모드 전환" [ref=e19]:
+      - img
+  - main [ref=e20]:
+    - article [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - heading "자바스크립트 강의 초안입니다." [level=1] [ref=e24]
+          - generic [ref=e25]:
+            - link "#javascript" [ref=e26] [cursor=pointer]:
+              - /url: /tags/javascript
+              - generic [ref=e27]: "#javascript"
+            - link "#클로드 코드" [ref=e28] [cursor=pointer]:
+              - /url: /tags/-
+              - generic [ref=e29]: "#클로드 코드"
+          - generic [ref=e30]:
+            - generic [ref=e31]: "발행: 2026년 5월 2일"
+            - generic [ref=e32]: "수정: 2026년 5월 2일"
+        - paragraph [ref=e34]: 자바스크립트 강의 초안입니당
+        - navigation [ref=e35]:
+          - link "다음 글 → 웹 포트폴리오" [ref=e38] [cursor=pointer]:
+            - /url: /posts/34eda59e-7d34-8077-b987-f8a0d7d92846
+            - generic [ref=e39]: 다음 글 →
+            - generic [ref=e40]: 웹 포트폴리오
+        - link "← 목록으로 돌아가기" [ref=e42] [cursor=pointer]:
+          - /url: /?slide=1

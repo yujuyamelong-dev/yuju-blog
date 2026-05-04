@@ -1,0 +1,24 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - heading "관리자" [level=1] [ref=e5]:
+        - link "관리자" [ref=e6] [cursor=pointer]:
+          - /url: /admin
+      - navigation [ref=e7]:
+        - link "홈" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "글 목록" [ref=e9] [cursor=pointer]:
+          - /url: /admin
+        - link "새 글" [ref=e10] [cursor=pointer]:
+          - /url: /admin/posts/new
+        - button "로그아웃" [ref=e12]
+  - main [ref=e13]:
+    - generic [ref=e16]:
+      - heading "관리자 로그인" [level=1] [ref=e17]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - text: 비밀번호
+          - textbox "비밀번호" [active] [ref=e20]:
+            - /placeholder: 관리자 비밀번호
+        - button "로그인" [ref=e21]
+      - paragraph [ref=e22]: 개인 블로그 관리자 전용 페이지입니다.

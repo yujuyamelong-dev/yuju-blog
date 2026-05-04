@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "WebFetch(domain:ui.shadcn.com)",
+      "WebSearch",
+      "mcp__shrimp-task-manager__list_tasks",
+      "mcp__shrimp-task-manager__execute_task",
+      "mcp__shrimp-task-manager__verify_task",
+      "mcp__shrimp-task-manager__get_task_detail",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_tabs",
+      "PowerShell(Stop-Process *)",
+      "mcp__shrimp-task-manager__update_task",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_press_key",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_wait_for",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "PowerShell($response = Invoke-WebRequest -Uri \"http://localhost:3006\" -ErrorAction SilentlyContinue; if \\($response.StatusCode -eq 200\\) { \"✓ Server is responding\"; $response.Content.Substring\\(0, 2000\\) } else { \"Server not responding\" })",
+      "mcp__playwright__browser_run_code"
+    ]
+    
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "osascript -e 'display notification \"클라우드가 당신의 입력을 기다리고 있어요!\" with title \"Claude Code\"'"
+          }
+        ]
+      }
+    ]
+  }
+}

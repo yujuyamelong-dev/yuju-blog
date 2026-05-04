@@ -1,0 +1,97 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - text: 유주's Blog
+    - generic [ref=e11]:
+      - img [ref=e12]
+      - textbox "블로그 글 검색" [ref=e15]:
+        - /placeholder: 글 검색...
+    - button "다크/라이트 모드 전환" [ref=e16]:
+      - img [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e23]:
+          - img [ref=e25]
+          - img [ref=e30]
+          - generic [ref=e34]:
+            - generic [ref=e35]: 안녕하세요, 반갑습니다!
+            - heading "저는유주입니다." [level=1] [ref=e36]
+            - paragraph [ref=e37]:
+              - img [ref=e38]
+              - text: 풀스텍 개발자
+            - paragraph [ref=e42]:
+              - img [ref=e43]
+              - text: AI 네이티브 개발자
+            - paragraph [ref=e47]:
+              - text: 개발하면서 배우고 경험한 것들을 기록합니다.
+              - text: 다양한 프로그래밍 언어를 배우는 것과 좋은 UI/UX를 만드는 것에
+              - text: 관심이 많습니다.
+            - generic [ref=e48]: TypeScriptNext.jsReactTailwind CSSNode.jsJavaVue.js
+            - generic [ref=e49]:
+              - button "다음 포스트로 이동" [ref=e50]:
+                - text: 블로그 글 보기
+                - img [ref=e51]
+              - link "GitHub" [ref=e53] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e54]
+                - text: GitHub
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - img [ref=e60]
+                - generic [ref=e64]:
+                  - generic [ref=e65]: "2"
+                  - generic [ref=e66]: 포스트
+              - generic [ref=e67]:
+                - img [ref=e69]
+                - generic [ref=e72]:
+                  - generic [ref=e73]: 3+
+                  - generic [ref=e74]: 프로젝트
+              - generic [ref=e75]:
+                - img [ref=e77]
+                - generic [ref=e80]:
+                  - generic [ref=e81]: 5+
+                  - generic [ref=e82]: 기술 스택
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - heading "블로그 글 목록" [level=2] [ref=e87]
+            - paragraph [ref=e88]: 총 2개의 글
+          - generic [ref=e89]:
+            - generic [ref=e92]:
+              - link "웹 포트폴리오" [ref=e93] [cursor=pointer]:
+                - /url: /posts/34eda59e-7d34-8077-b987-f8a0d7d92846
+                - heading "웹 포트폴리오" [level=3] [ref=e94]
+              - paragraph [ref=e95]: 나의 웹 포트폴리오
+              - generic [ref=e96]:
+                - img [ref=e97]
+                - link "html" [ref=e100] [cursor=pointer]:
+                  - /url: /tags/html
+                - link "css" [ref=e101] [cursor=pointer]:
+                  - /url: /tags/css
+                - link "javascript" [ref=e102] [cursor=pointer]:
+                  - /url: /tags/javascript
+              - generic [ref=e103]: 미발행읽기 →
+            - generic [ref=e106]:
+              - link "클로드 코드 강의 초안" [ref=e107] [cursor=pointer]:
+                - /url: /posts/34eda59e-7d34-804a-a5fe-f9fba835a2f3
+                - heading "클로드 코드 강의 초안" [level=3] [ref=e108]
+              - paragraph [ref=e109]: 클로드 코드 학습을 위한 강의초안
+              - generic [ref=e110]:
+                - img [ref=e111]
+                - link "Claude Code" [ref=e114] [cursor=pointer]:
+                  - /url: /tags/claude-code
+                - link "클로드 코드" [ref=e115] [cursor=pointer]:
+                  - /url: /tags/-
+                - link "강의초안" [ref=e116] [cursor=pointer]:
+                  - /url: /tags
+              - generic [ref=e117]: 미발행읽기 →
+      - button "이전 슬라이드" [ref=e118]:
+        - img [ref=e119]
+      - button "다음 슬라이드" [ref=e121]:
+        - img [ref=e122]
+      - generic [ref=e124]:
+        - button "슬라이드 1로 이동" [ref=e125]
+        - button "슬라이드 2로 이동" [ref=e126]
+      - generic [ref=e127]: 1 / 2

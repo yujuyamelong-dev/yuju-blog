@@ -1,0 +1,128 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - text: 유주's Blog
+    - generic [ref=e11]:
+      - img [ref=e12]
+      - textbox "블로그 글 검색" [ref=e15]:
+        - /placeholder: 글 검색...
+    - link "관리자 로그인" [ref=e16] [cursor=pointer]:
+      - /url: /admin/login
+      - button "관리자 로그인" [ref=e17]: 로그인
+    - button "다크/라이트 모드 전환" [ref=e18]:
+      - img [ref=e19]
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e25]:
+          - img [ref=e27]
+          - img [ref=e32]
+          - generic [ref=e36]:
+            - generic [ref=e37]: 안녕하세요, 반갑습니다!
+            - heading "저는유주입니다." [level=1] [ref=e38]
+            - paragraph [ref=e39]:
+              - img [ref=e40]
+              - text: 풀스텍 개발자
+            - paragraph [ref=e44]:
+              - img [ref=e45]
+              - text: AI 네이티브 개발자
+            - paragraph [ref=e49]:
+              - text: 개발하면서 배우고 경험한 것들을 기록합니다.
+              - text: 다양한 프로그래밍 언어를 배우는 것과 좋은 UI/UX를 만드는 것에
+              - text: 관심이 많습니다.
+            - generic [ref=e50]: TypeScriptNext.jsReactTailwind CSSNode.jsJavaVue.js
+            - generic [ref=e51]:
+              - button "다음 포스트로 이동" [ref=e52]:
+                - text: 블로그 글 보기
+                - img [ref=e53]
+              - link "GitHub" [ref=e55] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e56]
+                - text: GitHub
+              - link "이력서 보러가기" [ref=e59] [cursor=pointer]:
+                - /url: https://yujuyamelong-dev.github.io/my-web-profile/
+                - img [ref=e60]
+                - text: 이력서 보러가기
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - img [ref=e66]
+                - generic [ref=e70]:
+                  - generic [ref=e71]: "3"
+                  - generic [ref=e72]: 포스트
+              - generic [ref=e73]:
+                - img [ref=e75]
+                - generic [ref=e78]:
+                  - generic [ref=e79]: 3+
+                  - generic [ref=e80]: 프로젝트
+              - generic [ref=e81]:
+                - img [ref=e83]
+                - generic [ref=e86]:
+                  - generic [ref=e87]: 5+
+                  - generic [ref=e88]: 기술 스택
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - heading "블로그 글 목록" [level=2] [ref=e93]
+            - paragraph [ref=e94]: 총 3개의 글
+          - generic [ref=e95]:
+            - generic [ref=e98]:
+              - link "자바스크립트 강의 초안입니다." [ref=e99] [cursor=pointer]:
+                - /url: /posts/353da59e-7d34-80ba-a340-da3e87577aa4
+                - heading "자바스크립트 강의 초안입니다." [level=3] [ref=e100]
+              - paragraph [ref=e101]: 자바스크립트 강의 초안입니당
+              - generic [ref=e102]:
+                - img [ref=e103]
+                - link "javascript" [ref=e106] [cursor=pointer]:
+                  - /url: /tags/javascript
+                - link "클로드 코드" [ref=e107] [cursor=pointer]:
+                  - /url: /tags/-
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - img [ref=e110]
+                  - time [ref=e112]: 2026년 5월 2일
+                - text: 읽기 →
+            - generic [ref=e115]:
+              - link "웹 포트폴리오" [ref=e116] [cursor=pointer]:
+                - /url: /posts/34eda59e-7d34-8077-b987-f8a0d7d92846
+                - heading "웹 포트폴리오" [level=3] [ref=e117]
+              - paragraph [ref=e118]: 나의 웹 포트폴리오
+              - generic [ref=e119]:
+                - img [ref=e120]
+                - link "html" [ref=e123] [cursor=pointer]:
+                  - /url: /tags/html
+                - link "css" [ref=e124] [cursor=pointer]:
+                  - /url: /tags/css
+                - link "javascript" [ref=e125] [cursor=pointer]:
+                  - /url: /tags/javascript
+              - generic [ref=e126]:
+                - generic [ref=e127]:
+                  - img [ref=e128]
+                  - time [ref=e130]: 2026년 4월 26일
+                - text: 읽기 →
+            - generic [ref=e133]:
+              - link "클로드 코드 강의 초안" [ref=e134] [cursor=pointer]:
+                - /url: /posts/34eda59e-7d34-804a-a5fe-f9fba835a2f3
+                - heading "클로드 코드 강의 초안" [level=3] [ref=e135]
+              - paragraph [ref=e136]: 클로드 코드 학습을 위한 강의초안
+              - generic [ref=e137]:
+                - img [ref=e138]
+                - link "Claude Code" [ref=e141] [cursor=pointer]:
+                  - /url: /tags/claude-code
+                - link "클로드 코드" [ref=e142] [cursor=pointer]:
+                  - /url: /tags/-
+                - link "강의초안" [ref=e143] [cursor=pointer]:
+                  - /url: /tags
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - img [ref=e146]
+                  - time [ref=e148]: 2026년 4월 26일
+                - text: 읽기 →
+      - button "이전 슬라이드" [ref=e149]:
+        - img [ref=e150]
+      - button "다음 슬라이드" [ref=e152]:
+        - img [ref=e153]
+      - generic [ref=e155]:
+        - button "슬라이드 1로 이동" [ref=e156]
+        - button "슬라이드 2로 이동" [ref=e157]
+      - generic [ref=e158]: 1 / 2

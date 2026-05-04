@@ -1,0 +1,354 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e10]: 유주's Blog
+    - button "다크/라이트 모드 전환" [ref=e11]:
+      - img
+  - main:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - img
+            - generic:
+              - img
+            - generic [ref=e12]:
+              - generic [ref=e15]: 안녕하세요, 반갑습니다!
+              - heading "저는 유주 입니다." [level=1] [ref=e16]:
+                - generic [ref=e17]: 저는
+                - generic [ref=e18]: 유주
+                - generic [ref=e19]: 입니다.
+              - paragraph [ref=e20]:
+                - img [ref=e21]
+                - text: 풀스텍 개발자
+              - paragraph [ref=e25]:
+                - img [ref=e26]
+                - text: AI 네이티브 개발자
+              - paragraph [ref=e30]:
+                - text: 개발하면서 배우고 경험한 것들을 기록합니다.
+                - text: 다양한 프로그래밍 언어를 배우는 것과 좋은 UI/UX를 만드는 것에
+                - text: 관심이 많습니다.
+              - generic [ref=e31]:
+                - generic [ref=e32]: TypeScript
+                - generic [ref=e33]: Next.js
+                - generic [ref=e34]: React
+                - generic [ref=e35]: Tailwind CSS
+                - generic [ref=e36]: Node.js
+                - generic [ref=e37]: Java
+                - generic [ref=e38]: Vue.js
+              - generic [ref=e39]:
+                - button "다음 포스트로 이동" [ref=e40]:
+                  - text: 블로그 글 보기
+                  - img [ref=e41]
+                - link "GitHub" [ref=e43] [cursor=pointer]:
+                  - /url: https://github.com
+                  - img [ref=e44]
+                  - text: GitHub
+              - generic [ref=e47]:
+                - generic [ref=e48]:
+                  - img [ref=e50]
+                  - generic [ref=e54]:
+                    - generic [ref=e55]: 6+
+                    - generic [ref=e56]: 포스트
+                - generic [ref=e57]:
+                  - img [ref=e59]
+                  - generic [ref=e62]:
+                    - generic [ref=e63]: 3+
+                    - generic [ref=e64]: 프로젝트
+                - generic [ref=e65]:
+                  - img [ref=e67]
+                  - generic [ref=e70]:
+                    - generic [ref=e71]: 5+
+                    - generic [ref=e72]: 기술 스택
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/nextjs-15-app-router-guide
+            - generic:
+              - link:
+                - /url: /posts/nextjs-15-app-router-guide
+              - generic:
+                - link:
+                  - /url: /posts/nextjs-15-app-router-guide
+                - link "Next.js":
+                  - /url: /category/nextjs
+                  - generic: Next.js
+              - generic:
+                - heading "Next.js 15 App Router 완벽 가이드" [level=3]
+                - paragraph: App Router의 핵심 개념인 Server Components, Layouts, Loading UI를 실전 예제로 알아봅니다.
+                - generic:
+                  - img
+                  - link "Next.js":
+                    - /url: /tags/nextjs
+                  - link "React":
+                    - /url: /tags/react
+                  - link "성능최적화":
+                    - /url: /tags/performance
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 4월 20일
+                  - generic: 읽기 →
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/tailwind-css-v4-design-system
+            - generic:
+              - link:
+                - /url: /posts/tailwind-css-v4-design-system
+              - generic:
+                - link:
+                  - /url: /posts/tailwind-css-v4-design-system
+                - link "CSS":
+                  - /url: /category/css
+                  - generic: CSS
+              - generic:
+                - heading "Tailwind CSS v4로 디자인 시스템 구축하기" [level=3]
+                - paragraph: CSS-first 접근 방식의 Tailwind CSS v4를 활용해 일관된 디자인 토큰과 컴포넌트를 만드는 방법을 소개합니다.
+                - generic:
+                  - img
+                  - link "CSS":
+                    - /url: /tags/css
+                  - link "Tailwind":
+                    - /url: /tags/tailwind
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 4월 15일
+                  - generic: 읽기 →
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/typescript-type-guards
+            - generic:
+              - link:
+                - /url: /posts/typescript-type-guards
+              - generic:
+                - link:
+                  - /url: /posts/typescript-type-guards
+                - link "TypeScript":
+                  - /url: /category/typescript
+                  - generic: TypeScript
+              - generic:
+                - heading "TypeScript 타입 가드와 좁히기 패턴" [level=3]
+                - paragraph: 복잡한 유니온 타입을 안전하게 처리하는 타입 가드 패턴과 실무에서 자주 만나는 케이스를 다룹니다.
+                - generic:
+                  - img
+                  - link "TypeScript":
+                    - /url: /tags/typescript
+                  - link "타입안전성":
+                    - /url: /tags/type-safety
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 4월 8일
+                  - generic: 읽기 →
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/react-19-new-features
+            - generic:
+              - link:
+                - /url: /posts/react-19-new-features
+              - generic:
+                - link:
+                  - /url: /posts/react-19-new-features
+                - link "React":
+                  - /url: /category/react
+                  - generic: React
+              - generic:
+                - heading "React 19 새 기능 총정리" [level=3]
+                - paragraph: React 19에서 추가된 useActionState, useFormStatus, 그리고 Server Actions의 변화를 정리합니다.
+                - generic:
+                  - img
+                  - link "React":
+                    - /url: /tags/react
+                  - link "Hooks":
+                    - /url: /tags/hooks
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 4월 1일
+                  - generic: 읽기 →
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/zustand-state-management
+            - generic:
+              - link:
+                - /url: /posts/zustand-state-management
+              - generic:
+                - link:
+                  - /url: /posts/zustand-state-management
+                - link "React":
+                  - /url: /category/react
+                  - generic: React
+              - generic:
+                - heading "Zustand로 전역 상태 관리 간소화하기" [level=3]
+                - paragraph: Redux의 복잡함 없이 간결하게 전역 상태를 관리하는 Zustand 패턴과 미들웨어 활용법을 살펴봅니다.
+                - generic:
+                  - img
+                  - link "상태관리":
+                    - /url: /tags/state-management
+                  - link "Zustand":
+                    - /url: /tags/zustand
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 3월 28일
+                  - generic: 읽기 →
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/nodejs-performance-optimization
+            - generic:
+              - link:
+                - /url: /posts/nodejs-performance-optimization
+              - generic:
+                - link:
+                  - /url: /posts/nodejs-performance-optimization
+                - link "Node.js":
+                  - /url: /category/nodejs
+                  - generic: Node.js
+              - generic:
+                - heading "Node.js 성능 최적화 실전 가이드" [level=3]
+                - paragraph: 프로덕션 Node.js 애플리케이션의 성능 병목을 찾고 해결하는 프로파일링 기법과 최적화 전략을 소개합니다.
+                - generic:
+                  - img
+                  - link "Node.js":
+                    - /url: /tags/nodejs
+                  - link "성능최적화":
+                    - /url: /tags/performance
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 3월 20일
+                  - generic: 읽기 →
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/web-performance-metrics
+            - generic:
+              - link:
+                - /url: /posts/web-performance-metrics
+              - generic:
+                - link:
+                  - /url: /posts/web-performance-metrics
+                - link "Next.js":
+                  - /url: /category/nextjs
+                  - generic: Next.js
+              - generic:
+                - heading "핵심 Web Performance 메트릭 이해하기" [level=3]
+                - paragraph: LCP, FID, CLS 등 Core Web Vitals를 측정하고 개선하는 방법을 체계적으로 배웁니다.
+                - generic:
+                  - img
+                  - link "성능":
+                    - /url: /tags/performance
+                  - link "웹개발":
+                    - /url: /tags/web
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 3월 15일
+                  - generic: 읽기 →
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/testing-strategies
+            - generic:
+              - link:
+                - /url: /posts/testing-strategies
+              - generic:
+                - link:
+                  - /url: /posts/testing-strategies
+                - link "테스트":
+                  - /url: /category/testing
+                  - generic: 테스트
+              - generic:
+                - heading "프론트엔드 테스트 전략과 도구" [level=3]
+                - paragraph: Jest, Vitest, Playwright를 활용한 단위 테스트, 통합 테스트, E2E 테스트 실전 가이드입니다.
+                - generic:
+                  - img
+                  - link "테스트":
+                    - /url: /tags/testing
+                  - link "Playwright":
+                    - /url: /tags/playwright
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 3월 10일
+                  - generic: 읽기 →
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/docker-containerization
+            - generic:
+              - link:
+                - /url: /posts/docker-containerization
+              - generic:
+                - link:
+                  - /url: /posts/docker-containerization
+                - link "DevOps":
+                  - /url: /category/devops
+                  - generic: DevOps
+              - generic:
+                - heading "Docker를 이용한 애플리케이션 컨테이너화" [level=3]
+                - paragraph: Docker의 기본 개념부터 실무에서 사용하는 멀티 스테이지 빌드, 네트워킹까지 완벽 가이드입니다.
+                - generic:
+                  - img
+                  - link "Docker":
+                    - /url: /tags/docker
+                  - link "DevOps":
+                    - /url: /tags/devops
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 3월 5일
+                  - generic: 읽기 →
+        - generic:
+          - generic:
+            - link:
+              - /url: /posts/graphql-vs-rest
+            - generic:
+              - link:
+                - /url: /posts/graphql-vs-rest
+              - generic:
+                - link:
+                  - /url: /posts/graphql-vs-rest
+                - link "API":
+                  - /url: /category/api
+                  - generic: API
+              - generic:
+                - 'heading "GraphQL과 REST API 비교: 실무 선택 가이드" [level=3]'
+                - paragraph: GraphQL과 REST API의 장단점을 비교하고 각 상황에 맞는 API 설계 패턴을 제시합니다.
+                - generic:
+                  - img
+                  - link "GraphQL":
+                    - /url: /tags/graphql
+                  - link "API":
+                    - /url: /tags/api
+                - generic:
+                  - generic:
+                    - img
+                    - time: 2026년 2월 28일
+                  - generic: 읽기 →
+      - button "이전 슬라이드" [ref=e73]:
+        - img [ref=e74]
+      - button "다음 슬라이드" [ref=e76]:
+        - img [ref=e77]
+      - generic [ref=e79]:
+        - button "슬라이드 1로 이동" [ref=e80]
+        - button "슬라이드 2로 이동" [ref=e81]
+        - button "슬라이드 3로 이동" [ref=e82]
+        - button "슬라이드 4로 이동" [ref=e83]
+        - button "슬라이드 5로 이동" [ref=e84]
+        - button "슬라이드 6로 이동" [ref=e85]
+        - button "슬라이드 7로 이동" [ref=e86]
+        - button "슬라이드 8로 이동" [ref=e87]
+        - button "슬라이드 9로 이동" [ref=e88]
+        - button "슬라이드 10로 이동" [ref=e89]
+        - button "슬라이드 11로 이동" [ref=e90]
+      - generic [ref=e91]: 1 / 11

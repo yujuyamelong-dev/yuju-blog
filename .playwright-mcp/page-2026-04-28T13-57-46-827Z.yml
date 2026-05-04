@@ -1,0 +1,273 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e369] [cursor=pointer]:
+    - img [ref=e370]
+  - generic [ref=e373]:
+    - banner "사이트 헤더" [ref=e374]:
+      - link "블로그 홈으로 이동" [ref=e375] [cursor=pointer]:
+        - /url: /
+        - img [ref=e377]
+        - generic [ref=e381]: 유주's Blog
+      - button "다크/라이트 모드 전환" [ref=e382]:
+        - img
+    - main [ref=e383]:
+      - generic [ref=e385]:
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic [ref=e387]:
+          - generic [ref=e390]: 안녕하세요, 반갑습니다!
+          - heading "저는 유주 입니다." [level=1] [ref=e391]:
+            - generic [ref=e392]: 저는
+            - generic [ref=e393]: 유주
+            - generic [ref=e394]: 입니다.
+          - paragraph [ref=e395]:
+            - img [ref=e396]
+            - text: 풀스텍 개발자
+          - paragraph [ref=e400]:
+            - img [ref=e401]
+            - text: AI 네이티브 개발자
+          - paragraph [ref=e405]:
+            - text: 개발하면서 배우고 경험한 것들을 기록합니다.
+            - text: 다양한 프로그래밍 언어를 배우는 것과 좋은 UI/UX를 만드는 것에
+            - text: 관심이 많습니다.
+          - generic [ref=e406]:
+            - generic [ref=e407]: TypeScript
+            - generic [ref=e408]: Next.js
+            - generic [ref=e409]: React
+            - generic [ref=e410]: Tailwind CSS
+            - generic [ref=e411]: Node.js
+            - generic [ref=e412]: Java
+            - generic [ref=e413]: Vue.js
+          - generic [ref=e414]:
+            - button "다음 포스트로 이동" [ref=e415]:
+              - text: 블로그 글 보기
+              - img [ref=e416]
+            - link "GitHub" [ref=e418] [cursor=pointer]:
+              - /url: https://github.com
+              - img [ref=e419]
+              - text: GitHub
+          - generic [ref=e422]:
+            - generic [ref=e423]:
+              - img [ref=e425]
+              - generic [ref=e429]:
+                - generic [ref=e430]: 6+
+                - generic [ref=e431]: 포스트
+            - generic [ref=e432]:
+              - img [ref=e434]
+              - generic [ref=e437]:
+                - generic [ref=e438]: 3+
+                - generic [ref=e439]: 프로젝트
+            - generic [ref=e440]:
+              - img [ref=e442]
+              - generic [ref=e445]:
+                - generic [ref=e446]: 5+
+                - generic [ref=e447]: 기술 스택
+      - generic [ref=e449]:
+        - generic [ref=e450]:
+          - heading "블로그" [level=1] [ref=e451]
+          - paragraph [ref=e452]: 개발하면서 배우고 경험한 것들을 기록합니다.
+        - generic [ref=e453]:
+          - link "Next.js Next.js 15 App Router 완벽 가이드 App Router의 핵심 개념인 Server Components, Layouts, Loading UI를 실전 예제로 알아봅니다. Next.js React 성능최적화 2026년 4월 20일" [ref=e454] [cursor=pointer]:
+            - /url: /posts/nextjs-15-app-router-guide
+            - generic [ref=e455]:
+              - link "Next.js" [ref=e462]:
+                - /url: /category/nextjs
+                - generic [ref=e463]: Next.js
+              - generic [ref=e464]:
+                - heading "Next.js 15 App Router 완벽 가이드" [level=3] [ref=e465]
+                - paragraph [ref=e466]: App Router의 핵심 개념인 Server Components, Layouts, Loading UI를 실전 예제로 알아봅니다.
+                - generic [ref=e467]:
+                  - img [ref=e468]
+                  - link "Next.js" [ref=e471]:
+                    - /url: /tags/nextjs
+                  - link "React" [ref=e472]:
+                    - /url: /tags/react
+                  - link "성능최적화" [ref=e473]:
+                    - /url: /tags/performance
+                - generic [ref=e474]:
+                  - generic [ref=e475]:
+                    - img [ref=e476]
+                    - time [ref=e478]: 2026년 4월 20일
+                  - generic [ref=e479]: 읽기 →
+          - link "CSS Tailwind CSS v4로 디자인 시스템 구축하기 CSS-first 접근 방식의 Tailwind CSS v4를 활용해 일관된 디자인 토큰과 컴포넌트를 만드는 방법을 소개합니다. CSS Tailwind 2026년 4월 15일" [ref=e481] [cursor=pointer]:
+            - /url: /posts/tailwind-css-v4-design-system
+            - generic [ref=e482]:
+              - link "CSS" [ref=e489]:
+                - /url: /category/css
+                - generic [ref=e490]: CSS
+              - generic [ref=e491]:
+                - heading "Tailwind CSS v4로 디자인 시스템 구축하기" [level=3] [ref=e492]
+                - paragraph [ref=e493]: CSS-first 접근 방식의 Tailwind CSS v4를 활용해 일관된 디자인 토큰과 컴포넌트를 만드는 방법을 소개합니다.
+                - generic [ref=e494]:
+                  - img [ref=e495]
+                  - link "CSS" [ref=e498]:
+                    - /url: /tags/css
+                  - link "Tailwind" [ref=e499]:
+                    - /url: /tags/tailwind
+                - generic [ref=e500]:
+                  - generic [ref=e501]:
+                    - img [ref=e502]
+                    - time [ref=e504]: 2026년 4월 15일
+                  - generic [ref=e505]: 읽기 →
+          - link "TypeScript TypeScript 타입 가드와 좁히기 패턴 복잡한 유니온 타입을 안전하게 처리하는 타입 가드 패턴과 실무에서 자주 만나는 케이스를 다룹니다. TypeScript 타입안전성 2026년 4월 8일" [ref=e507] [cursor=pointer]:
+            - /url: /posts/typescript-type-guards
+            - generic [ref=e508]:
+              - link "TypeScript" [ref=e515]:
+                - /url: /category/typescript
+                - generic [ref=e516]: TypeScript
+              - generic [ref=e517]:
+                - heading "TypeScript 타입 가드와 좁히기 패턴" [level=3] [ref=e518]
+                - paragraph [ref=e519]: 복잡한 유니온 타입을 안전하게 처리하는 타입 가드 패턴과 실무에서 자주 만나는 케이스를 다룹니다.
+                - generic [ref=e520]:
+                  - img [ref=e521]
+                  - link "TypeScript" [ref=e524]:
+                    - /url: /tags/typescript
+                  - link "타입안전성" [ref=e525]:
+                    - /url: /tags/type-safety
+                - generic [ref=e526]:
+                  - generic [ref=e527]:
+                    - img [ref=e528]
+                    - time [ref=e530]: 2026년 4월 8일
+                  - generic [ref=e531]: 읽기 →
+          - link "React React 19 새 기능 총정리 React 19에서 추가된 useActionState, useFormStatus, 그리고 Server Actions의 변화를 정리합니다. React Hooks 2026년 4월 1일" [ref=e533] [cursor=pointer]:
+            - /url: /posts/react-19-new-features
+            - generic [ref=e534]:
+              - link "React" [ref=e541]:
+                - /url: /category/react
+                - generic [ref=e542]: React
+              - generic [ref=e543]:
+                - heading "React 19 새 기능 총정리" [level=3] [ref=e544]
+                - paragraph [ref=e545]: React 19에서 추가된 useActionState, useFormStatus, 그리고 Server Actions의 변화를 정리합니다.
+                - generic [ref=e546]:
+                  - img [ref=e547]
+                  - link "React" [ref=e550]:
+                    - /url: /tags/react
+                  - link "Hooks" [ref=e551]:
+                    - /url: /tags/hooks
+                - generic [ref=e552]:
+                  - generic [ref=e553]:
+                    - img [ref=e554]
+                    - time [ref=e556]: 2026년 4월 1일
+                  - generic [ref=e557]: 읽기 →
+          - link "React Zustand로 전역 상태 관리 간소화하기 Redux의 복잡함 없이 간결하게 전역 상태를 관리하는 Zustand 패턴과 미들웨어 활용법을 살펴봅니다. 상태관리 Zustand 2026년 3월 28일" [ref=e559] [cursor=pointer]:
+            - /url: /posts/zustand-state-management
+            - generic [ref=e560]:
+              - link "React" [ref=e567]:
+                - /url: /category/react
+                - generic [ref=e568]: React
+              - generic [ref=e569]:
+                - heading "Zustand로 전역 상태 관리 간소화하기" [level=3] [ref=e570]
+                - paragraph [ref=e571]: Redux의 복잡함 없이 간결하게 전역 상태를 관리하는 Zustand 패턴과 미들웨어 활용법을 살펴봅니다.
+                - generic [ref=e572]:
+                  - img [ref=e573]
+                  - link "상태관리" [ref=e576]:
+                    - /url: /tags/state-management
+                  - link "Zustand" [ref=e577]:
+                    - /url: /tags/zustand
+                - generic [ref=e578]:
+                  - generic [ref=e579]:
+                    - img [ref=e580]
+                    - time [ref=e582]: 2026년 3월 28일
+                  - generic [ref=e583]: 읽기 →
+          - link "Node.js Node.js 성능 최적화 실전 가이드 프로덕션 Node.js 애플리케이션의 성능 병목을 찾고 해결하는 프로파일링 기법과 최적화 전략을 소개합니다. Node.js 성능최적화 2026년 3월 20일" [ref=e585] [cursor=pointer]:
+            - /url: /posts/nodejs-performance-optimization
+            - generic [ref=e586]:
+              - link "Node.js" [ref=e593]:
+                - /url: /category/nodejs
+                - generic [ref=e594]: Node.js
+              - generic [ref=e595]:
+                - heading "Node.js 성능 최적화 실전 가이드" [level=3] [ref=e596]
+                - paragraph [ref=e597]: 프로덕션 Node.js 애플리케이션의 성능 병목을 찾고 해결하는 프로파일링 기법과 최적화 전략을 소개합니다.
+                - generic [ref=e598]:
+                  - img [ref=e599]
+                  - link "Node.js" [ref=e602]:
+                    - /url: /tags/nodejs
+                  - link "성능최적화" [ref=e603]:
+                    - /url: /tags/performance
+                - generic [ref=e604]:
+                  - generic [ref=e605]:
+                    - img [ref=e606]
+                    - time [ref=e608]: 2026년 3월 20일
+                  - generic [ref=e609]: 읽기 →
+          - link "Next.js 핵심 Web Performance 메트릭 이해하기 LCP, FID, CLS 등 Core Web Vitals를 측정하고 개선하는 방법을 체계적으로 배웁니다. 성능 웹개발 2026년 3월 15일" [ref=e611] [cursor=pointer]:
+            - /url: /posts/web-performance-metrics
+            - generic [ref=e612]:
+              - link "Next.js" [ref=e619]:
+                - /url: /category/nextjs
+                - generic [ref=e620]: Next.js
+              - generic [ref=e621]:
+                - heading "핵심 Web Performance 메트릭 이해하기" [level=3] [ref=e622]
+                - paragraph [ref=e623]: LCP, FID, CLS 등 Core Web Vitals를 측정하고 개선하는 방법을 체계적으로 배웁니다.
+                - generic [ref=e624]:
+                  - img [ref=e625]
+                  - link "성능" [ref=e628]:
+                    - /url: /tags/performance
+                  - link "웹개발" [ref=e629]:
+                    - /url: /tags/web
+                - generic [ref=e630]:
+                  - generic [ref=e631]:
+                    - img [ref=e632]
+                    - time [ref=e634]: 2026년 3월 15일
+                  - generic [ref=e635]: 읽기 →
+          - link "테스트 프론트엔드 테스트 전략과 도구 Jest, Vitest, Playwright를 활용한 단위 테스트, 통합 테스트, E2E 테스트 실전 가이드입니다. 테스트 Playwright 2026년 3월 10일" [ref=e637] [cursor=pointer]:
+            - /url: /posts/testing-strategies
+            - generic [ref=e638]:
+              - link "테스트" [ref=e645]:
+                - /url: /category/testing
+                - generic [ref=e646]: 테스트
+              - generic [ref=e647]:
+                - heading "프론트엔드 테스트 전략과 도구" [level=3] [ref=e648]
+                - paragraph [ref=e649]: Jest, Vitest, Playwright를 활용한 단위 테스트, 통합 테스트, E2E 테스트 실전 가이드입니다.
+                - generic [ref=e650]:
+                  - img [ref=e651]
+                  - link "테스트" [ref=e654]:
+                    - /url: /tags/testing
+                  - link "Playwright" [ref=e655]:
+                    - /url: /tags/playwright
+                - generic [ref=e656]:
+                  - generic [ref=e657]:
+                    - img [ref=e658]
+                    - time [ref=e660]: 2026년 3월 10일
+                  - generic [ref=e661]: 읽기 →
+          - link "DevOps Docker를 이용한 애플리케이션 컨테이너화 Docker의 기본 개념부터 실무에서 사용하는 멀티 스테이지 빌드, 네트워킹까지 완벽 가이드입니다. Docker DevOps 2026년 3월 5일" [ref=e663] [cursor=pointer]:
+            - /url: /posts/docker-containerization
+            - generic [ref=e664]:
+              - link "DevOps" [ref=e671]:
+                - /url: /category/devops
+                - generic [ref=e672]: DevOps
+              - generic [ref=e673]:
+                - heading "Docker를 이용한 애플리케이션 컨테이너화" [level=3] [ref=e674]
+                - paragraph [ref=e675]: Docker의 기본 개념부터 실무에서 사용하는 멀티 스테이지 빌드, 네트워킹까지 완벽 가이드입니다.
+                - generic [ref=e676]:
+                  - img [ref=e677]
+                  - link "Docker" [ref=e680]:
+                    - /url: /tags/docker
+                  - link "DevOps" [ref=e681]:
+                    - /url: /tags/devops
+                - generic [ref=e682]:
+                  - generic [ref=e683]:
+                    - img [ref=e684]
+                    - time [ref=e686]: 2026년 3월 5일
+                  - generic [ref=e687]: 읽기 →
+          - 'link "API GraphQL과 REST API 비교: 실무 선택 가이드 GraphQL과 REST API의 장단점을 비교하고 각 상황에 맞는 API 설계 패턴을 제시합니다. GraphQL API 2026년 2월 28일" [ref=e689] [cursor=pointer]':
+            - /url: /posts/graphql-vs-rest
+            - generic [ref=e690]:
+              - link "API" [ref=e697]:
+                - /url: /category/api
+                - generic [ref=e698]: API
+              - generic [ref=e699]:
+                - 'heading "GraphQL과 REST API 비교: 실무 선택 가이드" [level=3] [ref=e700]'
+                - paragraph [ref=e701]: GraphQL과 REST API의 장단점을 비교하고 각 상황에 맞는 API 설계 패턴을 제시합니다.
+                - generic [ref=e702]:
+                  - img [ref=e703]
+                  - link "GraphQL" [ref=e706]:
+                    - /url: /tags/graphql
+                  - link "API" [ref=e707]:
+                    - /url: /tags/api
+                - generic [ref=e708]:
+                  - generic [ref=e709]:
+                    - img [ref=e710]
+                    - time [ref=e712]: 2026년 2월 28일
+                  - generic [ref=e713]: 읽기 →
+  - alert [ref=e715]

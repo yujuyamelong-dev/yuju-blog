@@ -1,0 +1,119 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e10]: 유주's Blog
+    - generic [ref=e12]:
+      - img [ref=e13]
+      - textbox "블로그 글 검색" [ref=e16]:
+        - /placeholder: 글 검색...
+    - button "다크/라이트 모드 전환" [ref=e17]:
+      - img
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e22]:
+          - generic:
+            - img
+          - generic:
+            - img
+          - generic [ref=e24]:
+            - generic [ref=e27]: 안녕하세요, 반갑습니다!
+            - heading "저는 유주 입니다." [level=1] [ref=e28]:
+              - generic [ref=e29]: 저는
+              - generic [ref=e30]: 유주
+              - generic [ref=e31]: 입니다.
+            - paragraph [ref=e32]:
+              - img [ref=e33]
+              - text: 풀스텍 개발자
+            - paragraph [ref=e37]:
+              - img [ref=e38]
+              - text: AI 네이티브 개발자
+            - paragraph [ref=e42]:
+              - text: 개발하면서 배우고 경험한 것들을 기록합니다.
+              - text: 다양한 프로그래밍 언어를 배우는 것과 좋은 UI/UX를 만드는 것에
+              - text: 관심이 많습니다.
+            - generic [ref=e43]:
+              - generic [ref=e44]: TypeScript
+              - generic [ref=e45]: Next.js
+              - generic [ref=e46]: React
+              - generic [ref=e47]: Tailwind CSS
+              - generic [ref=e48]: Node.js
+              - generic [ref=e49]: Java
+              - generic [ref=e50]: Vue.js
+            - generic [ref=e51]:
+              - button "다음 포스트로 이동" [ref=e52]:
+                - text: 블로그 글 보기
+                - img [ref=e53]
+              - link "GitHub" [ref=e55] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e56]
+                - text: GitHub
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - img [ref=e62]
+                - generic [ref=e66]:
+                  - generic [ref=e67]: "2"
+                  - generic [ref=e68]: 포스트
+              - generic [ref=e69]:
+                - img [ref=e71]
+                - generic [ref=e74]:
+                  - generic [ref=e75]: 3+
+                  - generic [ref=e76]: 프로젝트
+              - generic [ref=e77]:
+                - img [ref=e79]
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 5+
+                  - generic [ref=e84]: 기술 스택
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading "블로그 글 목록" [level=2]
+                - paragraph: 총 2개의 글
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - link "웹 포트폴리오":
+                        - /url: /posts/34eda59e-7d34-8077-b987-f8a0d7d92846
+                        - heading "웹 포트폴리오" [level=3]
+                      - paragraph: 나의 웹 포트폴리오
+                      - generic:
+                        - img
+                        - link "html":
+                          - /url: /tags/html
+                        - link "css":
+                          - /url: /tags/css
+                        - link "javascript":
+                          - /url: /tags/javascript
+                      - generic:
+                        - generic: 미발행
+                        - generic: 읽기 →
+                - generic:
+                  - generic:
+                    - generic:
+                      - link "클로드 코드 강의 초안":
+                        - /url: /posts/34eda59e-7d34-804a-a5fe-f9fba835a2f3
+                        - heading "클로드 코드 강의 초안" [level=3]
+                      - paragraph: 클로드 코드 학습을 위한 강의초안
+                      - generic:
+                        - img
+                        - link "Claude Code":
+                          - /url: /tags/claude-code
+                        - link "클로드 코드":
+                          - /url: /tags/-
+                        - link "강의초안":
+                          - /url: /tags
+                      - generic:
+                        - generic: 미발행
+                        - generic: 읽기 →
+      - button "이전 슬라이드" [ref=e85]:
+        - img [ref=e86]
+      - button "다음 슬라이드" [active] [ref=e88]:
+        - img [ref=e89]
+      - generic [ref=e91]:
+        - button "슬라이드 1로 이동" [ref=e92]
+        - button "슬라이드 2로 이동" [ref=e93]
+      - generic [ref=e94]: 1 / 2

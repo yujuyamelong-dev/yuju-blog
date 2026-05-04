@@ -1,0 +1,13 @@
+[      60ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/css/e017f3627a64f1a7.css:0
+[      77ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/webpack-575b27f7aba74d11.js:0
+[      78ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/4bd1b696-409494caf8c83275.js:0
+[      78ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/255-249e483089def0f6.js:0
+[      78ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/main-app-f4ab68585a1a1d99.js:0
+[      82ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/554-6f020089086641a9.js:0
+[      83ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/192-439656164921c943.js:0
+[      97ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/943-9107dd3fc5339223.js:0
+[      98ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/app/layout-a3c0ea875de32872.js:0
+[      98ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/619-f072ac750404f9da.js:0
+[      99ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/666-95f865165337c5c7.js:0
+[      99ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/213-b01acda9c9854418.js:0
+[      99ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/app/page-b9d5c24e1ee9c18b.js:0

@@ -1,0 +1,74 @@
+- generic [ref=e2]:
+  - banner "사이트 헤더" [ref=e3]:
+    - link "블로그 홈으로 이동" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e10]: 유주's Blog
+  - generic [ref=e11]:
+    - complementary "소셜 미디어 링크" [ref=e12]:
+      - generic [ref=e14]:
+        - link "GitHub" [ref=e15] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e17]
+        - link "이메일" [ref=e20] [cursor=pointer]:
+          - /url: mailto:yujuyamelong@gmail.com
+          - img [ref=e22]
+    - main "블로그 슬라이드 뷰" [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e32]:
+          - generic [ref=e35]: 안녕하세요, 반갑습니다!
+          - heading "저는 유주 입니다." [level=1] [ref=e36]:
+            - generic [ref=e37]: 저는
+            - generic [ref=e38]: 유주
+            - generic [ref=e39]: 입니다.
+          - paragraph [ref=e40]:
+            - img [ref=e41]
+            - text: 풀스텍 개발자
+          - paragraph [ref=e45]:
+            - img [ref=e46]
+            - text: AI 네이티브 개발자
+          - paragraph [ref=e50]:
+            - text: 개발하면서 배우고 경험한 것들을 기록합니다.
+            - text: 다양한 프로그래밍 언어를 배우는 것과 좋은 UI/UX를 만드는 것에
+            - text: 관심이 많습니다.
+          - generic [ref=e51]:
+            - generic [ref=e52]: TypeScript
+            - generic [ref=e53]: Next.js
+            - generic [ref=e54]: React
+            - generic [ref=e55]: Tailwind CSS
+            - generic [ref=e56]: Node.js
+            - generic [ref=e57]: Java
+            - generic [ref=e58]: Vue.js
+          - generic [ref=e59]:
+            - button "다음 포스트로 이동" [ref=e60]:
+              - text: 블로그 글 보기
+              - img [ref=e61]
+            - link "GitHub" [ref=e63] [cursor=pointer]:
+              - /url: https://github.com
+              - img [ref=e64]
+              - text: GitHub
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - img [ref=e70]
+              - generic [ref=e74]:
+                - generic [ref=e75]: 6+
+                - generic [ref=e76]: 포스트
+            - generic [ref=e77]:
+              - img [ref=e79]
+              - generic [ref=e82]:
+                - generic [ref=e83]: 3+
+                - generic [ref=e84]: 프로젝트
+            - generic [ref=e85]:
+              - img [ref=e87]
+              - generic [ref=e90]:
+                - generic [ref=e91]: 5+
+                - generic [ref=e92]: 기술 스택
+        - navigation "슬라이드 네비게이션" [ref=e93]:
+          - button "이전 슬라이드" [disabled] [ref=e94]:
+            - img [ref=e95]
+          - generic [ref=e97]:
+            - tablist "슬라이드 목록" [ref=e98]:
+              - tab "슬라이드 1 (홈)" [selected] [ref=e99]
+            - generic [ref=e100]: 1/1
+          - button "다음 슬라이드" [disabled] [ref=e101]:
+            - img [ref=e102]
