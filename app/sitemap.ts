@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllPosts } from '@/lib/notion';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://my-blog-yujuyamelong.vercel.app';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yuju-blog-yujuyamelong.vercel.app';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const { items: posts } = await getAllPosts();

@@ -5,7 +5,7 @@ Disallow: /admin
 Disallow: /api
 
 # Sitemap 위치 지정
-Sitemap: https://my-blog-yujuyamelong.vercel.app/sitemap.xml
+Sitemap: https://yuju-blog-yujuyamelong.vercel.app/sitemap.xml
 
 # 크롤링 지연 (선택사항)
 Crawl-delay: 1

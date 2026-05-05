@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Analytics } from "@vercel/analytics/react";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://my-blog-yujuyamelong.vercel.app';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yuju-blog-yujuyamelong.vercel.app';
 
 export const metadata: Metadata = {
   title: {

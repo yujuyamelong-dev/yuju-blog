@@ -33,7 +33,7 @@ export async function generateMetadata({
     };
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://my-blog-yujuyamelong.vercel.app';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yuju-blog-yujuyamelong.vercel.app';
   const postUrl = `${siteUrl}/posts/${post.slug}`;
   const imageUrl = post.coverImage || `${siteUrl}/og-default.png`;
 
@@ -116,7 +116,7 @@ export default async function PostPage({ params }: PostPageProps) {
   const nextPost = postIndex < allPosts.length - 1 ? allPosts[postIndex + 1] : null;
 
   // JSON-LD 스키마 생성
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://my-blog-yujuyamelong.vercel.app';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yuju-blog-yujuyamelong.vercel.app';
   const postUrl = `${siteUrl}/posts/${post.slug}`;
   const imageUrl = post.coverImage || `${siteUrl}/og-default.png`;
 

@@ -11,7 +11,7 @@
         - generic [ref=e14]:
           - generic [ref=e15]:
             - generic [ref=e16]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app
+            - text: https://yuju-blog-yujuyamelong.vercel.app
             - generic [ref=e17]: </loc>
           - generic [ref=e18]:
             - generic [ref=e19]: <lastmod>
@@ -31,7 +31,7 @@
         - generic [ref=e33]:
           - generic [ref=e34]:
             - generic [ref=e35]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/posts/353da59e-7d34-80ba-a340-da3e87577aa4
+            - text: https://yuju-blog-yujuyamelong.vercel.app/posts/353da59e-7d34-80ba-a340-da3e87577aa4
             - generic [ref=e36]: </loc>
           - generic [ref=e37]:
             - generic [ref=e38]: <lastmod>
@@ -51,7 +51,7 @@
         - generic [ref=e52]:
           - generic [ref=e53]:
             - generic [ref=e54]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/posts/34eda59e-7d34-8077-b987-f8a0d7d92846
+            - text: https://yuju-blog-yujuyamelong.vercel.app/posts/34eda59e-7d34-8077-b987-f8a0d7d92846
             - generic [ref=e55]: </loc>
           - generic [ref=e56]:
             - generic [ref=e57]: <lastmod>
@@ -71,7 +71,7 @@
         - generic [ref=e71]:
           - generic [ref=e72]:
             - generic [ref=e73]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/posts/34eda59e-7d34-804a-a5fe-f9fba835a2f3
+            - text: https://yuju-blog-yujuyamelong.vercel.app/posts/34eda59e-7d34-804a-a5fe-f9fba835a2f3
             - generic [ref=e74]: </loc>
           - generic [ref=e75]:
             - generic [ref=e76]: <lastmod>
@@ -91,7 +91,7 @@
         - generic [ref=e90]:
           - generic [ref=e91]:
             - generic [ref=e92]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/tags/javascript
+            - text: https://yuju-blog-yujuyamelong.vercel.app/tags/javascript
             - generic [ref=e93]: </loc>
           - generic [ref=e94]:
             - generic [ref=e95]: <lastmod>
@@ -111,7 +111,7 @@
         - generic [ref=e109]:
           - generic [ref=e110]:
             - generic [ref=e111]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/tags/-
+            - text: https://yuju-blog-yujuyamelong.vercel.app/tags/-
             - generic [ref=e112]: </loc>
           - generic [ref=e113]:
             - generic [ref=e114]: <lastmod>
@@ -131,7 +131,7 @@
         - generic [ref=e128]:
           - generic [ref=e129]:
             - generic [ref=e130]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/tags/html
+            - text: https://yuju-blog-yujuyamelong.vercel.app/tags/html
             - generic [ref=e131]: </loc>
           - generic [ref=e132]:
             - generic [ref=e133]: <lastmod>
@@ -151,7 +151,7 @@
         - generic [ref=e147]:
           - generic [ref=e148]:
             - generic [ref=e149]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/tags/css
+            - text: https://yuju-blog-yujuyamelong.vercel.app/tags/css
             - generic [ref=e150]: </loc>
           - generic [ref=e151]:
             - generic [ref=e152]: <lastmod>
@@ -171,7 +171,7 @@
         - generic [ref=e166]:
           - generic [ref=e167]:
             - generic [ref=e168]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/tags/claude-code
+            - text: https://yuju-blog-yujuyamelong.vercel.app/tags/claude-code
             - generic [ref=e169]: </loc>
           - generic [ref=e170]:
             - generic [ref=e171]: <lastmod>
@@ -191,7 +191,7 @@
         - generic [ref=e185]:
           - generic [ref=e186]:
             - generic [ref=e187]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/tags/
+            - text: https://yuju-blog-yujuyamelong.vercel.app/tags/
             - generic [ref=e188]: </loc>
           - generic [ref=e189]:
             - generic [ref=e190]: <lastmod>
@@ -211,7 +211,7 @@
         - generic [ref=e204]:
           - generic [ref=e205]:
             - generic [ref=e206]: <loc>
-            - text: https://my-blog-yujuyamelong.vercel.app/search
+            - text: https://yuju-blog-yujuyamelong.vercel.app/search
             - generic [ref=e207]: </loc>
           - generic [ref=e208]:
             - generic [ref=e209]: <lastmod>
