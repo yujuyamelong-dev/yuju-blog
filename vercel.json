@@ -2,10 +2,6 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": "@next_public_site_url",
-    "NOTION_API_KEY": "@notion_api_key"
-  },
   "headers": [
     {
       "source": "/(.*)",
