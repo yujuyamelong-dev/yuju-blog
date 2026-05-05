@@ -22,6 +22,7 @@ export default function LoginPage() {
         setError(result.error);
         setLoading(false);
       } else if (result.success) {
+        setLoading(false);
         router.push('/admin');
       }
     } catch (err) {
